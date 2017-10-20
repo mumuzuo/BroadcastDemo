@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">BroadcastDemo</string>
+
+    <string name="main_hint">监听手机网络状态</string>
+    <string name="main_my_btn">自定义广播</string>
+    <string name="main_order_btn">发送有序广播</string>
+    <string name="main_local_btn">发送本地广播</string>
+    <string name="main_loginout_btn">发送强制下线广播</string>
+    <string name="login_title">登录</string>
+    <string name="login_name">用户名</string>
+    <string name="login_psw">密码</string>
+
+</resources>

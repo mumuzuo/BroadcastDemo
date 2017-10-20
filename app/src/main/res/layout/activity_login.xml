@@ -1,0 +1,47 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context="com.cnbs.broadcastdemo.act.LoginActivity">
+
+    <include layout="@layout/view_header"/>
+
+    <EditText
+        android:id="@+id/login_name"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="40dp"
+        android:paddingLeft="20dp"
+        android:textSize="18sp"
+        android:lines="1"
+        android:inputType="text"
+        android:textColor="@color/header_bg"
+        android:textColorHint="@color/hint_gray"
+        android:hint="@string/login_name"/>
+
+    <EditText
+        android:id="@+id/login_psw"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="20dp"
+        android:lines="1"
+        android:inputType="numberPassword"
+        android:textSize="18sp"
+        android:textColor="@color/header_bg"
+        android:textColorHint="@color/hint_gray"
+        android:layout_marginTop="20dp"
+        android:hint="@string/login_psw"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_marginTop="40dp"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:background="@color/header_bg"
+        android:textColor="@color/white"
+        android:textSize="22sp"
+        android:text="@string/login_title"/>
+
+</LinearLayout>

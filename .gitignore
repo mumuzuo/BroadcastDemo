@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+/.gradle/
+/.idea/
+/build/
+/RecyclerViewDemo.iml
+/app/build/
+/app/app.iml
+
